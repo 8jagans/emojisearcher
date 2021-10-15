@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.main {
+    background-color: #E6E6FA;
+    margin: 4%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px #c2c2c2;
+}
+
+.part1 {
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 3%;
+    background-color: #5e53a8;
+    border-radius: 10px 10px 0 0;
+}
+.title1 {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+.input1 {
+    padding: 1%;
+    border-radius: 50px;
+    width: 25%;
+    height: 20px;
+    font-size: 100%;
+}
+
+.cards {
+    background-color: azure;
+    margin: 1%;
+    margin-left: 1.5%;
+    padding: 1%;
+    display: inline-grid;
+    width: 15%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px #c2c2c2;
+    transition-duration: 0.3s;
+    cursor:default;
+}
+.cards:hover {
+    box-shadow: 1px 2px 20px 1px #483D8B;
+}
+
+.eicon {
+    font-size: 400%;
+}
+.etext {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 100%;
+}
+.enot {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 2%;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.cards {
+    margin-left: 10%;
+    width : 30%;
+    margin-top : 10%;
+}
+.input1 {
+    padding: 1%;
+    border-radius: 50px;
+    width: 60%;
+    height: 20px;
+}
+.enot {
+    padding-bottom: 5%;
+}
+    
+}
